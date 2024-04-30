@@ -35,7 +35,7 @@ const MediumLargeStyled = styled.div`
         }
     }
 
-    nav.mainMenu {
+    nav {
         text-align: center;
         a {
             width: 80px;

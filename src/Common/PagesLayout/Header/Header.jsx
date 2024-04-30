@@ -13,7 +13,6 @@ const Header = () => {
     return (
         <HeaderStyled>
             {isMediumAndUp ? <MediumLarge /> : <Small />}
-            <Small />
         </HeaderStyled>
     );
 };
