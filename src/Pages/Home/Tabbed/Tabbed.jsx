@@ -6,6 +6,7 @@ import { tabbedData } from "./tabbedData";
 
 // components
 import TabContent from "./TabContent";
+import TabList from "./TabList/TabList";
 
 const Tabbed = () => {
     const [curTab, curTabUpdate] = useState(tabbedData[0]);
