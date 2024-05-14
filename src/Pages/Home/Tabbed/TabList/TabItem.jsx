@@ -9,7 +9,7 @@ const TabItem = ({ tab, curTab, curTabUpdate }) => {
     const theClassName = tab.id === curTab.id ? "selected" : "";
 
     return (
-        <TabItemStyled classname={theClassName} onClick={handleClick}>
+        <TabItemStyled className={theClassName} onClick={handleClick}>
             {tab.title}
         </TabItemStyled>
     );
