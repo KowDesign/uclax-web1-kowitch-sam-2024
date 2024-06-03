@@ -9,7 +9,7 @@ const TabItem = ({ tab, curTab, curTabUpdate }) => {
     const theClassName = tab.id === curTab.id ? "selected" : "";
 
     return (
-        <TabItemStyled classname={theClassName} onClick={handleClick}>
+        <TabItemStyled className={theClassName} onClick={handleClick}>
             {tab.title}
         </TabItemStyled>
     );
@@ -20,7 +20,7 @@ export default TabItem;
 // prop-types
 TabItem.propTypes = {
     tab: PropTypes.object.isRequired,
-    curTab: PropTypes.func.isRequired,
+    curTab: PropTypes.object.isRequired,
     curTabUpdate: PropTypes.func.isRequired,
 };
 
