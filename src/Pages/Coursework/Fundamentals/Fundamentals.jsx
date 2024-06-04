@@ -4,7 +4,7 @@ import styled from "styled-components";
 import "./scripts/index.js";
 
 // React Components
-import ReactComponent from "./ReactComponenet";
+import ReactComponent from "./ReactComponent";
 
 const Fundamentals = () => {
     return (

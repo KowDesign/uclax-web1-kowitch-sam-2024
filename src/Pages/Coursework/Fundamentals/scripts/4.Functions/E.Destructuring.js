@@ -32,4 +32,4 @@ const person2 = {
 readPerson(person1);
 readPerson(person1);
 
-console.grouEnd();
+console.groupEnd();
