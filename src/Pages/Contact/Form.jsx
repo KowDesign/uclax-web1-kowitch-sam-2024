@@ -52,6 +52,7 @@ const Form = ({ getSubmissions }) => {
                 labelText="Email"
                 inputType="email"
                 onChange={inputEmailOnChange}
+                value={inputEmail}
             />
             <TextArea
                 id="message"

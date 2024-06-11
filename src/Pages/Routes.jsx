@@ -29,7 +29,7 @@ const MyRoutes = () => {
                     <Route element={<PagesLayout />}>
                         <Route element={<Home />} path="" />
                         <Route element={<Video />} path="video" />
-                        <Route element={<Staff />} path="staff" />
+                        <Route element={<Staff />} path="work" />
                         <Route element={<Contact />} path="contact" />
 
                         <Route

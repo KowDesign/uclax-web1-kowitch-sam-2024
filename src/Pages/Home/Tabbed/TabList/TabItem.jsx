@@ -37,7 +37,7 @@ const TabItemStyled = styled.div`
     width: clamp(75px, 20%, 150px);
 
     &.selected {
-        background-color: teal;
+        background-color: #1c6ac2;
         color: white;
     }
 `;
