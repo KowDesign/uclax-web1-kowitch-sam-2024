@@ -21,7 +21,7 @@ const ReactComponentStyled = styled.div`
     margin: 30px 0px;
 `;
 
-const Disclaimer Styled = styled.p`
+const DisclaimerStyled = styled.p`
     color: red;
     margin: 20px 0px;
 `;
