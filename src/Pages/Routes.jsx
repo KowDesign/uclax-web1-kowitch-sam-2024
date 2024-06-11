@@ -11,6 +11,7 @@ import { MediaQueryProvider } from "@/Common/useMediaQuery.jsx";
 
 // page components
 import Home from "./Home/Home.jsx";
+import Video from "./Video.jsx";
 import Staff from "./Staff/Staff.jsx";
 import Contact from "./Contact/Contact.jsx";
 
@@ -27,6 +28,7 @@ const MyRoutes = () => {
                 <Routes>
                     <Route element={<PagesLayout />}>
                         <Route element={<Home />} path="" />
+                        <Route element={<Video />} path="video" />
                         <Route element={<Staff />} path="staff" />
                         <Route element={<Contact />} path="contact" />
 

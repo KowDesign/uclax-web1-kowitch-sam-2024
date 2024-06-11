@@ -10,14 +10,12 @@ import Form from "./Form";
 const Contact = () => {
     const [submissions, setSubmissions] = useState([]);
 
+    const getSubmissions = async () => {
+        const { data } = await axios.get("http://localhost:4059/submissions");
+        setSubmissions(data);
+    };
     useEffect(() => {
-        const getSubmission = async () => {
-            const { data } = await axios.get(
-                "http://localhost:4059/submissions"
-            );
-            setSubmissions(data);
-        };
-        getSubmission(data);
+        getSubmissions();
     }, []);
 
     return (

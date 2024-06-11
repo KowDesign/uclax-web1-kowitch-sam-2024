@@ -1,6 +1,6 @@
-import image1 from "./img/Wireframes.jpg";
-import image2 from "./img/Frame 6.jpg";
-import image3 from "./img/iPhone 14 Pro - 1.png";
+import image1 from "./img/Wireframes.png";
+import image2 from "./img/Frame-6.jpg";
+import image3 from "./img/iPhone-14-Pro.png";
 
 export const tabbedData = [
     {

@@ -3,11 +3,11 @@ import React from "react";
 import ReactPlayer from "react-player";
 
 const Video = ({}) => {
-    return
-    <VideoStyled>
-<ReactPlayer url='https://youtu.be/SmbCsCyg4R4'>
-</VideoStyled>
-
+    return (
+        <VideoStyled>
+            <ReactPlayer url="https://youtu.be/SmbCsCyg4R4" />
+        </VideoStyled>
+    );
 };
 
 export default Video;

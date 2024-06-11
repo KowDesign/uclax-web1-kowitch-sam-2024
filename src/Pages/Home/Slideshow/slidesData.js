@@ -1,8 +1,8 @@
-import slide1 from "./img/Untitled.jpg";
-import slide2 from "./img/Design System.jpg";
-import slide3 from "./img/Sam Kowitch.jpg";
-import slide4 from "./img/Liveball Cover Image";
-import slide5 from "./img/eginger + headspac.jpg";
+import slide1 from "./img/LinkedIn.jpg";
+import slide2 from "./img/Design-System.jpg";
+import slide3 from "./img/Sam-Kowitch.jpg";
+import slide4 from "./img/Liveball-Cover-Image.jpg";
+import slide5 from "./img/eginger-headspace.jpg";
 
 export const slidesData = [
     {

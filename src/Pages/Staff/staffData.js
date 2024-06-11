@@ -1,13 +1,13 @@
-import image1 from "./img/EXECUTIVE SUMMARY.png";
+import image1 from "./img/Executive-Summary.png";
 import image2 from "./img/Nearby.png";
 import image3 from "./img/PROBLEMS.png";
-import image4 from "./img/Sam Kowitch Resume.png";
-import image5 from "./img/Search Events.png";
+import image4 from "./img/Sam-Kowitch-Resume.png";
+import image5 from "./img/Search-Events.png";
 import image6 from "./img/Search.png";
-import image7 from "./img/Site Map.png";
-import image8 from "./img/SOLUTIONS #12.png";
-import image9 from "./img/THE TOOL #5.png";
-import image10 from "./img/Trips Hifi.png";
+import image7 from "./img/Site-Map.png";
+import image8 from "./img/Solutions-12.png";
+import image9 from "./img/The-Tool-5.png";
+import image10 from "./img/Trips-Hifi.png";
 import image11 from "./img/Wireframes.png";
 
 export const staffData = [
